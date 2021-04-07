@@ -98,7 +98,7 @@ License: none (public domain)
   details > summary {
     list-style: none;
   }
-  details > summary::-webkit-details-marker {
+  details > summary::marker {
     display: none;
   }
 
