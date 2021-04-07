@@ -27,9 +27,7 @@ export default css`
   h4,
   h5,
   h6 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-      Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-      'Segoe UI Symbol' !important;
+    font-family: 'Lexend' !important;
     color: ${({ theme }) => theme.colors.primary};
   }
 
