@@ -8,9 +8,13 @@ const About = () => {
     <Page meta={{ title: 'About' }}>
       <Heading as='h1'>About</Heading>
       <Text>
-        Welcome to my about page! I will be sure to put some information here as
-        soon as possible!
+        Our about page is still in the alpha stage of development at this time,
+        so we aren&apos;t quite ready to share our secrets just yet. Don&apos;t
+        worry - you&apos;ll be able to pre-order and get early access to our
+        closed Pre-Beta Alpha&trade; very soon!
       </Text>
+
+      <Text>Stay random! &hearts;</Text>
     </Page>
   );
 };

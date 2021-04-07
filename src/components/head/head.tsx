@@ -8,7 +8,7 @@ export interface HeadProps {
 const Head = ({ title }: HeadProps) => {
   return (
     <NextHead>
-      <title>{`${title} - Rees Morris`}</title>
+      <title>{`${title} - RandomNumbers`}</title>
     </NextHead>
   );
 };
