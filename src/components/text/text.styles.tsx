@@ -7,7 +7,7 @@ interface TextProps {
 const Text = styled.p<TextProps>`
   font-size: 1.6rem;
   font-weight: 300;
-  line-height: 2.5rem;
+  line-height: 3rem;
 `;
 
 export default { Text };
