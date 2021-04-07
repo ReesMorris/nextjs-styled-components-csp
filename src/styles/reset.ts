@@ -102,11 +102,6 @@ License: none (public domain)
     display: none;
   }
 
-  /* make sure to set some focus styles for accessibility */
-  :focus {
-    outline: none;
-  }
-
   /* HTML5 display-role reset for older browsers */
   article,
   aside,
@@ -226,19 +221,6 @@ License: none (public domain)
   /**
 * Address 'outline' inconsistency between Chrome and other browsers.
 */
-
-  a:focus {
-    outline: none;
-  }
-
-  /**
-* Improve readability when focused and also mouse hovered in all browsers.
-*/
-
-  a:active,
-  a:hover {
-    outline: 0;
-  }
 
   /**
 * 1. Remove border when inside 'a' element in IE 6/7/8/9 and Firefox 3.

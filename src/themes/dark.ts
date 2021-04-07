@@ -7,6 +7,11 @@ const theme: DefaultTheme = {
   },
   colors: {
     primary: '#ffffff'
+  },
+  ui: {
+    button: {
+      background_color: '#394046'
+    }
   }
 };
 

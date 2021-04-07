@@ -10,5 +10,10 @@ declare module 'styled-components' {
     colors: {
       primary: string;
     };
+    ui: {
+      button: {
+        background_color: string;
+      };
+    };
   }
 }
