@@ -7,15 +7,12 @@ import Document, {
   DocumentContext,
   DocumentInitialProps
 } from 'next/document';
-import { ReactElement } from 'react';
 import { ServerStyleSheet } from 'styled-components';
 
-interface InitialProps extends DocumentInitialProps {
-  styles: ReactElement;
-}
-
 export default class MyDocument extends Document {
-  static async getInitialProps(ctx: DocumentContext): Promise<InitialProps> {
+  static async getInitialProps(
+    ctx: DocumentContext
+  ): Promise<DocumentInitialProps> {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
 
