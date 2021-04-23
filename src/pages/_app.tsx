@@ -11,4 +11,6 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   );
 };
 
+MyApp.getInitialProps = () => ({});
+
 export default MyApp;
